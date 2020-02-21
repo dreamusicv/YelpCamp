@@ -1,0 +1,21 @@
+<%- include("partials/header") %>
+<h1>Sign Up</h1>
+<form action="/register" method="POST">
+    <div class="input">
+        <label for="usernameInput">Username</label>
+        <input id="usernameInput" type="text" name="username" placeholder="Username">
+    </div>
+    <div class="input">
+        <label for="passwordInput">Pasword</label>
+        <input id="passwordInput" type="password" name="password" placeholder="Password">
+    </div>
+
+    <button class="btn btn-primary">Sign Up</button>
+    
+</form>
+
+<% if(error) { %>
+    <p class="error centered"><%= error.name%>: <%= error.message%> </p>
+<% } %>
+
+<%- include("partials/footer") %>

@@ -1,0 +1,35 @@
+form{
+    width: 30%;
+    margin: 25px auto;
+}
+
+form input{
+    margin-bottom: 20px;
+}
+
+.centered{
+    text-align: center;
+}
+
+.comment-opt{
+    font-size: x-small;
+}
+
+.error{
+    color: red;
+}
+
+.form-btn{
+    display: inline;
+}
+
+.thumbnail{
+    padding:0;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+}
+div.thumbnail img{
+    width: 100%;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+}
